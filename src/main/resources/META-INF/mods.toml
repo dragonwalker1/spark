@@ -1,14 +1,18 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="Cool Kid License "
 
 [[mods]]
 modId="birb"
 version="1.0.0"
-displayName="birb"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Drake, MCreator"
+displayName="Elementals"
+credits="MCreator gived us freedom to create code easier."
+displayURL="https://github.com/dragonwalker1/spark.git"
+logoFile="logo.png"
+authors="Dragon, Spark"
+description='''
+Elementals is a Minecraft mod that introduces new elemental materials to the game, which can be combined to create powerful weapons. With the mod, players can discover and collect various elements such as fire, water, earth, and air, each with their own unique properties. By combining different elements in a crafting table, players can create weapons that harness the strengths of each element.
+'''
 
 [[dependencies.birb]]
     modId="minecraft"

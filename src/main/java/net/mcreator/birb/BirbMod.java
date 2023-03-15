@@ -31,11 +31,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.birb.init.BirbModItems;
-import net.mcreator.birb.init.BirbModFeatures;
-import net.mcreator.birb.init.BirbModBlocks;
-import net.mcreator.birb.init.BirbModBiomes;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -55,12 +50,6 @@ public class BirbMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		BirbModBlocks.REGISTRY.register(bus);
-		BirbModItems.REGISTRY.register(bus);
-
-		BirbModFeatures.REGISTRY.register(bus);
-
-		BirbModBiomes.REGISTRY.register(bus);
 		GeckoLib.initialize();
 	}
 

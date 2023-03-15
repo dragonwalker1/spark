@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "birb:blocks/crystalized_stone",
-    "particle": "birb:blocks/crystalized_stone"
-  },
-  "render_type": "solid"
-}

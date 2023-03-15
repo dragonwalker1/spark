@@ -1,42 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "CrystalizedStone",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystalized_stone",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/birb/block/CrystalizedStoneBlock.java",
-          "src/main/java/net/mcreator/birb/world/features/ores/CrystalizedStoneFeature.java",
-          "src/main/resources/data/birb/forge/biome_modifier/crystalized_stone_biome_modifier.json",
-          "src/main/resources/assets/birb/models/item/crystalized_stone.json",
-          "src/main/resources/assets/birb/blockstates/crystalized_stone.json",
-          "src/main/resources/assets/birb/models/block/crystalized_stone.json"
-        ]
-      }
-    },
-    {
-      "name": "CrystalCaverns",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystal_caverns",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/birb/world/biome/CrystalCavernsBiome.java"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.birb.crystalized_stone": "Crystalized Stone",
-      "biome.birb.crystal_caverns": "Crystal Caverns"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
@@ -44,13 +11,15 @@
   },
   "workspaceSettings": {
     "modid": "birb",
-    "modName": "birb",
+    "modName": "Elementals",
     "version": "1.0.0",
-    "author": "Drake, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "description": "Elementals is a Minecraft mod that introduces new elemental materials to the game, which can be combined to create powerful weapons. With the mod, players can discover and collect various elements such as fire, water, earth, and air, each with their own unique properties. By combining different elements in a crafting table, players can create weapons that harness the strengths of each element.",
+    "author": "Dragon, Spark",
+    "websiteURL": "https://github.com/dragonwalker1/spark.git",
+    "license": "Cool Kid License ",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "ele",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -58,7 +27,7 @@
       "geckolib"
     ],
     "currentGenerator": "forge-1.19.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "MCreator gived us freedom to create code easier.",
     "modElementsPackage": "net.mcreator.birb",
     "lockBaseModFiles": false
   },

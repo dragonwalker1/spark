@@ -16,13 +16,38 @@
           "src/main/resources/assets/birb/models/block/crystalized_stone.json"
         ]
       }
+    },
+    {
+      "name": "CrystalCaverns",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_caverns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/world/biome/CrystalCavernsBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "Nmbjhgvjghvg",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nmbjhgvjghvg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/Nmbjhgvjghvg.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.birb.crystalized_stone": "Crystalized Stone"
+      "block.birb.crystalized_stone": "Crystalized Stone",
+      "biome.birb.crystal_caverns": "Crystal Caverns"
     }
   },
   "foldersRoot": {
