@@ -59,12 +59,118 @@
     {
       "name": "EarthElementLivingEntityIsHitWithItem",
       "type": "procedure",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_element_living_entity_is_hit_with_item",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/birb/procedures/EarthElementLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WindElementLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_element_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/WindElementLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireElementLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_element_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/FireElementLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterElementLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_element_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/WaterElementLivingEntityIsHitWithItemProcedure.java"
         ],
         "dependencies": [
           {
