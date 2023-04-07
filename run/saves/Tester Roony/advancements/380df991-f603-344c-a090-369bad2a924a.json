@@ -1,4 +1,92 @@
 {
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2023-04-07 15:17:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2023-04-07 15:11:09 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2023-04-07 15:08:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2023-04-07 15:17:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-03-15 19:06:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-03-15 18:45:39 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "chicken": "2023-04-07 15:12:04 -0700",
+      "cooked_beef": "2023-04-07 15:17:31 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2023-04-07 15:11:09 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2023-04-07 15:17:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2023-03-12 19:12:38 -0700",
+      "minecraft:river": "2023-04-07 15:13:45 -0700",
+      "minecraft:forest": "2023-04-07 15:13:48 -0700",
+      "minecraft:plains": "2023-03-15 18:40:17 -0700"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-04-07 15:12:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-03-15 19:06:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-03-15 19:06:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2023-04-07 15:11:09 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2023-03-15 19:06:22 -0700"
@@ -11,9 +99,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "in_water": "2023-03-15 19:06:22 -0700"
+      "has_feather": "2023-04-07 15:13:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2023-04-07 15:08:43 -0700"
     },
     "done": true
   },
@@ -23,25 +117,19 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
-      "in_water": "2023-03-15 19:06:22 -0700"
+      "has_porkchop": "2023-04-07 15:08:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2023-04-07 15:17:28 -0700"
     },
     "done": true
   },
   "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2023-03-15 19:06:22 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2023-03-15 18:45:39 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2023-03-15 19:06:22 -0700"
     },
@@ -53,12 +141,17 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
-      "minecraft:sparse_jungle": "2023-03-12 19:12:38 -0700",
-      "minecraft:plains": "2023-03-15 18:40:17 -0700"
+      "has_leather": "2023-04-07 15:17:28 -0700"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2023-04-07 15:17:28 -0700"
+    },
+    "done": true
   },
   "DataVersion": 3120
 }

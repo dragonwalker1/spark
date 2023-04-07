@@ -27,6 +27,6 @@ public class EarthElementLivingEntityIsHitWithItemProcedure {
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles(ParticleTypes.MYCELIUM, x, y, z, 100, 3, 3, 3, 1);
 		if (entity instanceof Mob _entity)
-			_entity.getNavigation().moveTo(x, 20, z, 100);
+			_entity.getNavigation().moveTo(x, 20, z, 50);
 	}
 }
