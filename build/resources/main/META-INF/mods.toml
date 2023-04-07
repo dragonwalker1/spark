@@ -4,14 +4,14 @@ license="Wizard License"
 
 [[mods]]
 modId="birb"
-version="1.0.0"
+version="0.011.2.0.11.19.2"
 displayName="SpellScape"
 credits="MCreator gave us freedom to create code easier."
 displayURL="https://github.com/dragonwalker1/spark.git"
 logoFile="logo.png"
 authors="Dragon, Spark"
 description='''
-SpellScape is a Minecraft mod that introduces new elemental materials to the game, which can be combined to create powerful weapons. With the mod, players can discover and collect various elements such as fire, water, earth, and air, each with their own unique properties. By combining different elements in a crafting table, players can create weapons that harness the strengths of each element.
+SpellScape is a Minecraft mod that introduces new elemental materials to the game, which can be combined to create powerful weapons. With the mod, players can discover and collect various elements such as fire, water, earth, and air, each with their own unique properties. By combining different elements in a crafting table, players can create wands that harness the strengths of each element.
 '''
 
 [[dependencies.birb]]

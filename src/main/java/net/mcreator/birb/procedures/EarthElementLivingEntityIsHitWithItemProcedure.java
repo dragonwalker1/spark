@@ -1,8 +1,7 @@
 package net.mcreator.birb.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.Explosion;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
@@ -25,9 +24,9 @@ public class EarthElementLivingEntityIsHitWithItemProcedure {
 				_entity.yHeadRotO = _entity.getYRot();
 			}
 		}
-		if (world instanceof Level _level && !_level.isClientSide())
-			_level.explode(null, x, y, z, 4, Explosion.BlockInteraction.NONE);
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles(ParticleTypes.MYCELIUM, x, y, z, 100, 3, 3, 3, 1);
+		if (entity instanceof Mob _entity)
+			_entity.getNavigation().moveTo(x, 20, z, 100);
 	}
 }
