@@ -195,13 +195,282 @@
           }
         ]
       }
+    },
+    {
+      "name": "ManaOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/client/screens/ManaOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProcedure",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc3",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc5",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc4",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc6",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc2",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc7",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc8",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc9",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarProc10",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaIncreaserRightclicked",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_increaser_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaIncreaserRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaIncreaser",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_increaser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/birb/models/item/mana_increaser.json",
+          "src/main/java/net/mcreator/birb/item/ManaIncreaserItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Manaincreaserrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manaincreaserrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/birb/recipes/manaincreaserrecipe.json"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "ManaBar",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.birb.wind_element": "Wind Element",
+      "item.birb.mana_increaser": "Mana Increaser",
       "item.birb.water_element": "Water Element",
       "item.birb.earth_element": "Earth Element",
       "item.birb.fire_element": "Fire Element"
@@ -215,7 +484,7 @@
     "modid": "birb",
     "modName": "SpellScape",
     "version": "0.011.2.0-a.1-1.19.2",
-    "description": "SpellScape is a Minecraft mod that introduces new elemental materials to the game, which can be combined to create powerful weapons. With the mod, players can discover and collect various elements such as fire, water, earth, and air, each with their own unique properties. By combining different elements in a crafting table, players can create wands that harness the strengths of each element.",
+    "description": "SpellScape is a Minecraft mod that introduces new elemental materials to the game, which can be combined to create powerful wands. With the mod, players can defeat elementals and get various elements such as fire, water, earth, and air, each with their own unique properties. By combining different elements at a Element table, players can create wands that harness the strengths of new elements!",
     "author": "Dragon, Spark, Yellow",
     "websiteURL": "https://github.com/dragonwalker1/spark.git",
     "license": "Wizard License",

@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.birb.item.WindElementItem;
 import net.mcreator.birb.item.WaterElementItem;
+import net.mcreator.birb.item.ManaIncreaserItem;
 import net.mcreator.birb.item.FireElementItem;
 import net.mcreator.birb.item.EarthElementItem;
 import net.mcreator.birb.BirbMod;
@@ -22,4 +23,5 @@ public class BirbModItems {
 	public static final RegistryObject<Item> WATER_ELEMENT = REGISTRY.register("water_element", () -> new WaterElementItem());
 	public static final RegistryObject<Item> EARTH_ELEMENT = REGISTRY.register("earth_element", () -> new EarthElementItem());
 	public static final RegistryObject<Item> WIND_ELEMENT = REGISTRY.register("wind_element", () -> new WindElementItem());
+	public static final RegistryObject<Item> MANA_INCREASER = REGISTRY.register("mana_increaser", () -> new ManaIncreaserItem());
 }

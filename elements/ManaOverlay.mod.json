@@ -1,0 +1,147 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dbghb.png",
+          "use1Xscale": false,
+          "x": 306,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sadwasd.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProcedure"
+          },
+          "x": 305,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flat_right_side_thingytlol.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc2"
+          },
+          "x": 211,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sdfweasd.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc3"
+          },
+          "x": 305,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "asdwf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc4"
+          },
+          "x": 305,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sdfsf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc5"
+          },
+          "x": 305,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sdf.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc6"
+          },
+          "x": 305,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bruvvvxd.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc7"
+          },
+          "x": 305,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "idkreallyknowwhattocalltheseanymorelol.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc8"
+          },
+          "x": 305,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flat_right_side_thingytlol.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc9"
+          },
+          "x": 305,
+          "y": 148
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "endrightmana.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ManaBarProc10"
+          },
+          "x": 305,
+          "y": 148
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
