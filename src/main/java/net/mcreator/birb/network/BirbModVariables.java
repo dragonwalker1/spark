@@ -68,6 +68,7 @@ public class BirbModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.ManaBar = original.ManaBar;
 			if (!event.isWasDeath()) {
+				clone.jumpersvar = original.jumpersvar;
 			}
 		}
 	}
@@ -104,6 +105,7 @@ public class BirbModVariables {
 
 	public static class PlayerVariables {
 		public double ManaBar = 0;
+		public boolean jumpersvar = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -113,12 +115,14 @@ public class BirbModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("ManaBar", ManaBar);
+			nbt.putBoolean("jumpersvar", jumpersvar);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			ManaBar = nbt.getDouble("ManaBar");
+			jumpersvar = nbt.getBoolean("jumpersvar");
 		}
 	}
 
@@ -144,6 +148,7 @@ public class BirbModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.ManaBar = message.data.ManaBar;
+					variables.jumpersvar = message.data.jumpersvar;
 				}
 			});
 			context.setPacketHandled(true);
