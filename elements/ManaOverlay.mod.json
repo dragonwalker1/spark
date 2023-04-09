@@ -138,7 +138,8 @@
         "data": {
           "name": "label_mana",
           "text": {
-            "fixedValue": "Mana:"
+            "fixedValue": "Mana:",
+            "name": "Manavalue"
           },
           "color": {
             "value": -11812622,

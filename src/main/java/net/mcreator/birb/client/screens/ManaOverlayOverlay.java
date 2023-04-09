@@ -12,10 +12,10 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.birb.procedures.ManavalueProcedure;
 import net.mcreator.birb.procedures.ManaBarProcedureProcedure;
 import net.mcreator.birb.procedures.ManaBarProc9Procedure;
 import net.mcreator.birb.procedures.ManaBarProc8Procedure;
@@ -99,7 +99,9 @@ public class ManaOverlayOverlay {
 				RenderSystem.setShaderTexture(0, new ResourceLocation("birb:textures/screens/endrightmana.png"));
 				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 92, posY + 28, 0, 0, 120, 120, 120, 120);
 			}
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.birb.mana_overlay.label_mana"), posX + 96, posY + 73, -11812622);
+			Minecraft.getInstance().font.draw(event.getPoseStack(),
+
+					ManavalueProcedure.execute(entity), posX + 96, posY + 73, -11812622);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

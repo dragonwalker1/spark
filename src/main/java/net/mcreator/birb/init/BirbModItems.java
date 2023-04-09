@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.birb.item.WindElementItem;
+import net.mcreator.birb.item.WaterwandprojectileItem;
 import net.mcreator.birb.item.WaterWandItem;
 import net.mcreator.birb.item.WaterElementItem;
 import net.mcreator.birb.item.ManaCrystalItem;
+import net.mcreator.birb.item.LuckyHorseshoeItem;
 import net.mcreator.birb.item.FireElementItem;
 import net.mcreator.birb.item.EarthElementItem;
 import net.mcreator.birb.BirbMod;
@@ -26,4 +28,6 @@ public class BirbModItems {
 	public static final RegistryObject<Item> WIND_ELEMENT = REGISTRY.register("wind_element", () -> new WindElementItem());
 	public static final RegistryObject<Item> MANA_CRYSTAL = REGISTRY.register("mana_crystal", () -> new ManaCrystalItem());
 	public static final RegistryObject<Item> WATER_WAND = REGISTRY.register("water_wand", () -> new WaterWandItem());
+	public static final RegistryObject<Item> LUCKY_HORSESHOE_BOOTS = REGISTRY.register("lucky_horseshoe_boots", () -> new LuckyHorseshoeItem.Boots());
+	public static final RegistryObject<Item> WATERWANDPROJECTILE = REGISTRY.register("waterwandprojectile", () -> new WaterwandprojectileItem());
 }

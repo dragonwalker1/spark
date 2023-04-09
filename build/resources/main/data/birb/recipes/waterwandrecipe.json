@@ -1,23 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "  2",
-    " 4 ",
-    "6  "
-  ],
-  "key": {
-    "2": {
-      "item": "birb:water_element"
-    },
-    "4": {
-      "item": "minecraft:stick"
-    },
-    "6": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:stick"
+  },
+  "addition": {
+    "item": "birb:water_element"
   },
   "result": {
-    "item": "birb:water_wand",
-    "count": 1
+    "item": "birb:water_wand"
   }
 }

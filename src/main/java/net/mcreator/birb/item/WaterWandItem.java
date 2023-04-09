@@ -26,7 +26,7 @@ public class WaterWandItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return -2f;
 			}
 
 			public int getLevel() {

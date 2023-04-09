@@ -1,0 +1,769 @@
+{
+  "mod_elements": [
+    {
+      "name": "WaterElement",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_element",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/birb/models/item/water_element.json",
+          "src/main/java/net/mcreator/birb/item/WaterElementItem.java"
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "FireElement",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_element",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/item/FireElementItem.java",
+          "src/main/resources/assets/birb/models/item/fire_element.json"
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "EarthElement",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_element",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/birb/models/item/earth_element.json",
+          "src/main/java/net/mcreator/birb/item/EarthElementItem.java"
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "WindElement",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_element",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/birb/models/item/wind_element.json",
+          "src/main/java/net/mcreator/birb/item/WindElementItem.java"
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "EarthElementLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_element_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/EarthElementLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "WindElementLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_element_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/WindElementLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "FireElementLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_element_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/FireElementLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "WaterElementLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_element_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/WaterElementLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "ManaOverlay",
+      "type": "overlay",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/client/screens/ManaOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProcedure",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc3",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc5",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc4",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc6",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc2",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc7",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc8",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc9",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaBarProc10",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_proc_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaBarProc10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Manaincreaserrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manaincreaserrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/birb/recipes/manaincreaserrecipe.json"
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaStart",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_start",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaRegen",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_regen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaRegenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaCrystalPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_crystal_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManaCrystalPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaCrystal",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/item/ManaCrystalItem.java",
+          "src/main/resources/assets/birb/models/item/mana_crystal.json"
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "WaterWandRangedItemUsed",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_wand_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/WaterWandRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "WaterWand",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/item/WaterWandItem.java",
+          "src/main/resources/assets/birb/models/item/water_wand.json"
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "Waterwandrecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterwandrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/birb/recipes/waterwandrecipe.json"
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "DashOnKeyPressed",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dash_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/DashOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dash"
+    },
+    {
+      "name": "Dash",
+      "type": "keybind",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/network/DashMessage.java"
+        ]
+      },
+      "path": "~/Dash"
+    },
+    {
+      "name": "Fowarddashonkeyressed",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fowarddashonkeyressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/FowarddashonkeyressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dash"
+    },
+    {
+      "name": "FowardDash",
+      "type": "keybind",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foward_dash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/network/FowardDashMessage.java"
+        ]
+      },
+      "path": "~/Dash"
+    },
+    {
+      "name": "LuckyHorseshoeBootsTickEvent",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_horseshoe_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/LuckyHorseshoeBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuckyHorseshoe",
+      "type": "armor",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_horseshoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/item/LuckyHorseshoeItem.java",
+          "src/main/resources/assets/birb/models/item/lucky_horseshoe_boots.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "ManaBar",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "jumpersvar",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "MaxMana",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "ManaMultiplier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Manastart",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.birb.wind_element": "Wind Element",
+      "item.birb.lucky_horseshoe_boots": "Lucky Horseshoes",
+      "item.birb.water_element": "Water Element",
+      "item.birb.lucky_horseshoe_helmet": "Lucky Horseshoe Helmet",
+      "item.birb.earth_element": "Earth Element",
+      "item.birb.fire_element": "Fire Element",
+      "key.birb.dash": "Backwards Dash",
+      "item.birb.lucky_horseshoe_leggings": "Lucky Horseshoe Leggings",
+      "item.birb.mana_crystal": "Mana Crystal",
+      "key.birb.foward_dash": "Foward Dash",
+      "item.birb.water_wand": "Water Wand",
+      "item.birb.lucky_horseshoe_chestplate": "Lucky Horseshoe Body",
+      "gui.birb.mana_overlay.label_mana": "Mana:"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mana",
+        "children": []
+      },
+      {
+        "name": "Elements",
+        "children": []
+      },
+      {
+        "name": "Dash",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "birb",
+    "modName": "SpellScape",
+    "version": "0.011.2.0-a.1-1.19.2",
+    "description": "SpellScape is a Minecraft mod that introduces new elemental materials to the game, which can be combined to create powerful wands. With the mod, players can defeat elementals and get various elements such as fire, water, earth, and air, each with their own unique properties. By combining two different elements at a smithing table, players can create new elements that then can be crafted into wands to be used to fight against enemies!",
+    "author": "Dragon, Spark, Yellow",
+    "websiteURL": "https://github.com/dragonwalker1/spark.git",
+    "license": "Wizard License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "mc_logo_1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "MCreator gave us freedom to create code easier.",
+    "modElementsPackage": "net.mcreator.birb",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,9 +1,16 @@
 {
   "item.birb.wind_element": "Wind Element",
+  "item.birb.lucky_horseshoe_boots": "Lucky Horseshoes",
+  "item.birb.waterwandprojectile": "Waterwandprojectile",
   "item.birb.water_element": "Water Element",
+  "item.birb.lucky_horseshoe_helmet": "Lucky Horseshoe Helmet",
   "item.birb.earth_element": "Earth Element",
   "item.birb.fire_element": "Fire Element",
+  "key.birb.dash": "Backwards Dash",
+  "item.birb.lucky_horseshoe_leggings": "Lucky Horseshoe Leggings",
   "item.birb.mana_crystal": "Mana Crystal",
+  "key.birb.foward_dash": "Foward Dash",
   "item.birb.water_wand": "Water Wand",
+  "item.birb.lucky_horseshoe_chestplate": "Lucky Horseshoe Body",
   "gui.birb.mana_overlay.label_mana": "Mana:"
 }
