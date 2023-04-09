@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ManaIncreaser"
+      "value": "CUSTOM:ManaCrystal"
     },
     "name": "manaincreaserrecipe",
     "namespace": "mod"

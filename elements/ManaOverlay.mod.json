@@ -132,6 +132,21 @@
           "x": 305,
           "y": 148
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mana",
+          "text": {
+            "fixedValue": "Mana:"
+          },
+          "color": {
+            "value": -11812622,
+            "falpha": 0.0
+          },
+          "x": 309,
+          "y": 193
+        }
       }
     ],
     "baseTexture": "",

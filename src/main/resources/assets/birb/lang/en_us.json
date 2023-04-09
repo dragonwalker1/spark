@@ -1,12 +1,9 @@
 {
-  "item.birb.high_jump_boots_helmet": "High Jump Boots Helmet",
-  "item.birb.high_jump_boots_leggings": "High Jump Boots Leggings",
   "item.birb.wind_element": "Wind Element",
-  "item.birb.mana_increaser": "Mana Increaser",
-  "item.birb.high_jump_boots_chestplate": "High Jump Boots Body",
   "item.birb.water_element": "Water Element",
-  "key.birb.double_jump": "Double Jump",
-  "item.birb.high_jump_boots_boots": "High Jump Boots",
   "item.birb.earth_element": "Earth Element",
-  "item.birb.fire_element": "Fire Element"
+  "item.birb.fire_element": "Fire Element",
+  "item.birb.mana_crystal": "Mana Crystal",
+  "item.birb.water_wand": "Water Wand",
+  "gui.birb.mana_overlay.label_mana": "Mana:"
 }

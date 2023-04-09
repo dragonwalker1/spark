@@ -67,6 +67,9 @@ public class BirbModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.ManaBar = original.ManaBar;
+			clone.MaxMana = original.MaxMana;
+			clone.ManaMultiplier = original.ManaMultiplier;
+			clone.Manastart = original.Manastart;
 			if (!event.isWasDeath()) {
 				clone.jumpersvar = original.jumpersvar;
 			}
@@ -104,8 +107,11 @@ public class BirbModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double ManaBar = 0;
+		public double ManaBar = 100.0;
 		public boolean jumpersvar = false;
+		public double MaxMana = 100.0;
+		public double ManaMultiplier = 0;
+		public boolean Manastart = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -116,6 +122,9 @@ public class BirbModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("ManaBar", ManaBar);
 			nbt.putBoolean("jumpersvar", jumpersvar);
+			nbt.putDouble("MaxMana", MaxMana);
+			nbt.putDouble("ManaMultiplier", ManaMultiplier);
+			nbt.putBoolean("Manastart", Manastart);
 			return nbt;
 		}
 
@@ -123,6 +132,9 @@ public class BirbModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			ManaBar = nbt.getDouble("ManaBar");
 			jumpersvar = nbt.getBoolean("jumpersvar");
+			MaxMana = nbt.getDouble("MaxMana");
+			ManaMultiplier = nbt.getDouble("ManaMultiplier");
+			Manastart = nbt.getBoolean("Manastart");
 		}
 	}
 
@@ -149,6 +161,9 @@ public class BirbModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.ManaBar = message.data.ManaBar;
 					variables.jumpersvar = message.data.jumpersvar;
+					variables.MaxMana = message.data.MaxMana;
+					variables.ManaMultiplier = message.data.ManaMultiplier;
+					variables.Manastart = message.data.Manastart;
 				}
 			});
 			context.setPacketHandled(true);
