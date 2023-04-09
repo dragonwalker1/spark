@@ -130,7 +130,7 @@
           }
         ]
       },
-      "path": "~/Mana"
+      "path": "~/Elements"
     },
     {
       "name": "FireElementLivingEntityIsHitWithItem",
@@ -660,6 +660,57 @@
           }
         ]
       }
+    },
+    {
+      "name": "LuckyHorseshoe",
+      "type": "armor",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_horseshoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/item/LuckyHorseshoeItem.java",
+          "src/main/resources/assets/birb/models/item/lucky_horseshoe_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Waterwandprojectile",
+      "type": "rangeditem",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterwandprojectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/item/WaterwandprojectileItem.java",
+          "src/main/resources/assets/birb/models/item/waterwandprojectile.json",
+          "src/main/java/net/mcreator/birb/entity/WaterwandprojectileEntity.java"
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "Manavalue",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manavalue",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/ManavalueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
     }
   ],
   "variable_elements": [
@@ -698,13 +749,18 @@
   "language_map": {
     "en_us": {
       "item.birb.wind_element": "Wind Element",
+      "item.birb.lucky_horseshoe_boots": "Lucky Horseshoes",
+      "item.birb.waterwandprojectile": "Waterwandprojectile",
       "item.birb.water_element": "Water Element",
+      "item.birb.lucky_horseshoe_helmet": "Lucky Horseshoe Helmet",
       "item.birb.earth_element": "Earth Element",
       "item.birb.fire_element": "Fire Element",
       "key.birb.dash": "Backwards Dash",
+      "item.birb.lucky_horseshoe_leggings": "Lucky Horseshoe Leggings",
       "item.birb.mana_crystal": "Mana Crystal",
       "key.birb.foward_dash": "Foward Dash",
       "item.birb.water_wand": "Water Wand",
+      "item.birb.lucky_horseshoe_chestplate": "Lucky Horseshoe Body",
       "gui.birb.mana_overlay.label_mana": "Mana:"
     }
   },

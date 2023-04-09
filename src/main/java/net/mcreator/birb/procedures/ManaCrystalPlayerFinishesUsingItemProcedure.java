@@ -9,7 +9,7 @@ public class ManaCrystalPlayerFinishesUsingItemProcedure {
 		if (entity == null)
 			return;
 		{
-			double _setval = (entity.getCapability(BirbModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BirbModVariables.PlayerVariables())).ManaBar + 5;
+			double _setval = (entity.getCapability(BirbModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BirbModVariables.PlayerVariables())).ManaBar + 30;
 			entity.getCapability(BirbModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.ManaBar = _setval;
 				capability.syncPlayerVariables(entity);

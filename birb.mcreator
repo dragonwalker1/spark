@@ -589,6 +589,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -711,6 +727,57 @@
         ]
       },
       "path": "~/Mana"
+    },
+    {
+      "name": "Eathwand",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eathwand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/procedures/EathwandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "Earth",
+      "type": "rangeditem",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/birb/models/item/earth.json",
+          "src/main/java/net/mcreator/birb/entity/EarthEntity.java",
+          "src/main/java/net/mcreator/birb/item/EarthItem.java"
+        ]
+      },
+      "path": "~/Elements"
+    },
+    {
+      "name": "EarthWand",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birb/item/EarthWandItem.java",
+          "src/main/resources/assets/birb/models/item/earth_wand.json"
+        ]
+      },
+      "path": "~/Elements"
     }
   ],
   "variable_elements": [
@@ -755,7 +822,9 @@
       "item.birb.lucky_horseshoe_helmet": "Lucky Horseshoe Helmet",
       "item.birb.earth_element": "Earth Element",
       "item.birb.fire_element": "Fire Element",
+      "item.birb.earth": "Waterwandprojectile",
       "key.birb.dash": "Backwards Dash",
+      "item.birb.earth_wand": "Earth Wand",
       "item.birb.lucky_horseshoe_leggings": "Lucky Horseshoe Leggings",
       "item.birb.mana_crystal": "Mana Crystal",
       "key.birb.foward_dash": "Foward Dash",

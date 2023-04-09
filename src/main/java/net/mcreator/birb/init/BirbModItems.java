@@ -17,6 +17,8 @@ import net.mcreator.birb.item.WaterElementItem;
 import net.mcreator.birb.item.ManaCrystalItem;
 import net.mcreator.birb.item.LuckyHorseshoeItem;
 import net.mcreator.birb.item.FireElementItem;
+import net.mcreator.birb.item.EarthWandItem;
+import net.mcreator.birb.item.EarthItem;
 import net.mcreator.birb.item.EarthElementItem;
 import net.mcreator.birb.BirbMod;
 
@@ -30,4 +32,6 @@ public class BirbModItems {
 	public static final RegistryObject<Item> WATER_WAND = REGISTRY.register("water_wand", () -> new WaterWandItem());
 	public static final RegistryObject<Item> LUCKY_HORSESHOE_BOOTS = REGISTRY.register("lucky_horseshoe_boots", () -> new LuckyHorseshoeItem.Boots());
 	public static final RegistryObject<Item> WATERWANDPROJECTILE = REGISTRY.register("waterwandprojectile", () -> new WaterwandprojectileItem());
+	public static final RegistryObject<Item> EARTH = REGISTRY.register("earth", () -> new EarthItem());
+	public static final RegistryObject<Item> EARTH_WAND = REGISTRY.register("earth_wand", () -> new EarthWandItem());
 }

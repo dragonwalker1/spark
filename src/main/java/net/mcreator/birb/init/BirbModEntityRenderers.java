@@ -16,5 +16,6 @@ public class BirbModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(BirbModEntities.WATERWANDPROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(BirbModEntities.EARTH.get(), ThrownItemRenderer::new);
 	}
 }

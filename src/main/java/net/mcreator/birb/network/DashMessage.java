@@ -52,7 +52,7 @@ public class DashMessage {
 			return;
 		if (type == 0) {
 
-			DashOnKeyPressedProcedure.execute(entity);
+			DashOnKeyPressedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
